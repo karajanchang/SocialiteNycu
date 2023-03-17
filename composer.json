@@ -1,0 +1,22 @@
+{
+  "name": "karajanchang/SocialiteNycu",
+  "description": "nycu socialite provider",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "david",
+      "email": "karajanchang@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-json": "*",
+    "socialiteproviders/manager": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SocialiteProviders\\Nycu\\": ""
+    }
+  }
+}
